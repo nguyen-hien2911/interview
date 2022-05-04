@@ -1,0 +1,8 @@
+React-Router là một thư viện định tuyến (routing) tiêu chuẩn trong React. Nó giữ cho giao diện của ứng dụng đồng bộ với URL trên trình duyệt. React-Router cho phép bạn định tuyến "luồng dữ liệu" (data flow) trong ứng dụng của bạn một cách rõ ràng. Nó tương đương với sự khẳng định, nếu bạn có URL này, nó sẽ tương đương với Route này, và giao diện tương ứng.Ý tưởng của Router (bộ định tuyến) thực sự rất hữu ích vì bản chất bạn đang làm việc với React, một thư viện Javascript để lập trình các ứng dụng một trang ( Single Page Application). Để phát triển ứng dụng React bạn phải viết rất nhiều Component nhưng lại chỉ cần một tập tin duy nhất để phục vụ người dùng, đó là index.html 
+React Router giúp bạn định nghĩa ra các URL động, và lựa chọn Component phù hợp để hiển thị trên trình duyệt người dùng ứng với từng URL
+
+
+
+Nếu bạn muốn liên kết đến một trang web bên ngoài ứng dụng React của mình , thẻ liên kết HTML sẽ hoạt động tốt. Nếu bạn muốn liên kết đến một trang trong ứng dụng React của mình, bạn có thể KHÔNG muốn sử dụng thẻ vì điều này sẽ khiến toàn bộ ứng dụng của bạn bị tải lại, làm mất trạng thái hiện tại của ứng dụng và gây ra sự chậm trễ cho người dùng.
+
+Trong trường hợp này, bạn có thể muốn sử dụng một gói như bộ định tuyến phản ứng có thể di chuyển người dùng xung quanh ứng dụng của bạn mà không cần tải lại.

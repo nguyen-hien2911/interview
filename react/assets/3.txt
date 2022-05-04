@@ -1,0 +1,8 @@
+React là một thư viện Javascript được duy trì bởi Facebook. Nó rất phổ biến và cũng khá phức tạp trong khâu xử lí data. Bài viết này sẽ tóm lược lại 3 cách xử lí data trong React:
+
+Truyền data từ cha sang con sử dụng props
+Truyền data từ con sang cha sử dụng callbacks
+Truyền data giữa các con. Nó có thể được thực hiện qua các phương pháp:
+Sử dụng đồng thời các phương pháp ở trên.
+Sử dụng Redux.
+Sử dụng Context API của React.
